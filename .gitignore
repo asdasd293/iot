@@ -16,3 +16,5 @@ fake-eggs/
 parts/
 dist/
 var/
+server/node_modules/
+server/.env
