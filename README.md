@@ -5,16 +5,20 @@
   npm i
   ```
 
-2. Config DB in `.env` file
+2. Download and install xampp -> Open xampp -> start Apache, MySQL
 
-3. Run migrate and seed database
+3. Open http://localhost/phpmyadmin/ -> New DB -> DB name: iot, select: utf8_unicode_ci -> Create
+
+3. Config DB in `.env` file (View file .env.example)
+
+4. Run migrate and seed database
 
   ```shell
   sequelize db:migrate
   sequelize db:seed:all
   ```
 
-4. Run server
+5. Run server
 
   ```shell
   node index.js
